@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-let userGoal = "Learn Docker!";
+let userGoal = "Learning Docker!";
 
 app.use(
   bodyParser.urlencoded({
