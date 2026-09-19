@@ -41,6 +41,9 @@ services:
 volumes:
   mongo-data: # Ensures your database data isn't lost when containers stop
 "
-share the git or just yml file git for team dev and yml for tester..
+6.share the git or just yml file git for team dev and yml for tester..
+
+7.can run in dettach mode -d flag attach is default meaning code and container are connected
+console.log visible in -a mode.. in gui logs tab has all logs 
 
 
