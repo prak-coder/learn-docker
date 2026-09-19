@@ -1,11 +1,13 @@
 1.Docker one of software to create containers
 2.Docker solves it works in my machine but not in other machine(server/teammates)
 based on images and containers
-fundamentals
-      1.images and containers,
-      2.data and volumes,
-      3.Docker network
-for mern app need 3 images 1.MongoDB 2.Node API 3.React (Frontend) have docker-compose.yml in root of project . run docker compose in root directory or use docker gui   
+3.fundamentals
+      a.images and containers,
+      b.data and volumes,
+      c.Docker network
+4.for mern app need 3 images 1.MongoDB 2.Node API 3.React (Frontend) have docker-compose.yml in root of project . run docker compose in root directory or use docker gui   
+
+5.example of  yml file
 
 "version: '3.8'
 
