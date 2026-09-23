@@ -46,5 +46,7 @@ volumes:
 7.can run in dettach mode -d flag attach is default meaning code and container are connected
 console.log visible in -a mode.. in gui logs tab has all logs 
 
-8.kubernetes is not a specific software but a system for maintaining mutiple containers on cloud(multiple machines).. it is platform(cloud provider) independent..it makes deploying and managing mutiple mutiple containers on cloud(multiple machines) easy.. based on pod(one container) inside worker node.. master node manages other worker nodes
+8. docker run --help show all available options.. -p -it prune images // rm --name containers easily done in docker-desktop
+
+20.kubernetes is not a specific software but a system for maintaining mutiple containers on cloud(multiple machines).. it is platform(cloud provider) independent..it makes deploying and managing mutiple mutiple containers on cloud(multiple machines) easy.. based on pod(one container) inside worker node.. master node manages other worker nodes
 
