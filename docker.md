@@ -43,8 +43,10 @@ volumes:
 "
 6.share the git or just yml file git for team dev and yml for tester..
 
-7.can run in dettach mode -d flag attach is default meaning code and container are connected
+7.can run in dettach mode -d flag attach is default mode.. in attach mode we can see the output of the container..
 console.log visible in -a mode.. in gui logs tab has all logs 
+docker run (creates and starts a new container) → Defaults to attached mode
+docker start (restarts an existing, stopped container) → Defaults to detached mode (background). It just outputs the container name/ID and exits.
 
 8. docker run --help show all available options.. -p -it prune images // rm --name containers easily done in docker-desktop
 
