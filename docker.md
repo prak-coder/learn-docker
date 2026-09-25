@@ -51,7 +51,7 @@ docker start (restarts an existing, stopped container) → Defaults to detached 
 8. docker run --help show all available options.. -p -it prune images // rm --name containers easily done in docker-desktop
 
 9.create gitea from docker hub use it to create github like web app 
-pushed full docker projects into a new created repo. it was created using go lang not in my machine but used docker
+pushed full docker projects into a new created repo. it was created using go language not in my machine but using docker.
 
 20.kubernetes is not a specific software but a system for maintaining mutiple containers on cloud(multiple machines).. it is platform(cloud provider) independent..it makes deploying and managing mutiple mutiple containers on cloud(multiple machines) easy.. based on pod(one container) inside worker node.. master node manages other worker nodes
 
